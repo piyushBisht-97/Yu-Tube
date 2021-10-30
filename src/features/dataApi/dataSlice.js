@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 
 export const getData = createAsyncThunk('/', async ()=>{
