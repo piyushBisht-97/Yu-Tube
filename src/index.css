@@ -1,8 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+  overflow-x: none;
+  font-size: 14px;
+}
 *{
-  padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
+  padding: 0;
+
+}
+.app{
+  display: flex;
+  
+}
+.home{
+  color: #ffff;
+  background-color: #181818;
 }

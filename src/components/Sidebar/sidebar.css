@@ -1,0 +1,29 @@
+.sidebar{
+    width: 250px;
+    height: 91.5vh;
+}
+.sidebar__btn{
+    display: flex;
+    padding: 20px 25px;
+    cursor: pointer;
+    align-items: center;
+}
+.sidebar__btn > .sidebar__icon{
+    opacity: 0.6;
+}
+.sidebar__btn >p{
+    opacity: 0.9;
+    
+    font-size: 1rem;
+}
+.sidebar__icon{
+    margin-right: 20px;
+}
+/* .sidebar__btn--active > .sidebar__icon,
+.sidebar__btn--active >p{
+    opacity: 1 ;
+} */
+.sidebar__btn--active,
+.sidebar__btn:hover{
+    background-color: #303030;
+}
