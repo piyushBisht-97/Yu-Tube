@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <Link className="header" to="/">
       <div className="header-logo">
-        <span style={{ color: "green" }}>Happy</span> Tube
+        <span style={{ color: "green" }}>Yo</span> Tube
       </div>
     </Link>
   );
